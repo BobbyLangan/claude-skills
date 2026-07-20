@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-skills",
+  "name": "rlangan-skills",
   "description": "Bobby Langan's personal Claude Code plugin library — one plugin per skill.",
   "owner": {
     "name": "Bobby Langan"

@@ -8,8 +8,8 @@
 ## Install
 
 ```bash
-claude plugin marketplace add BobbyLangan/claude-skills
-claude plugin install i-have-adhd@claude-skills
+claude plugin marketplace add BobbyLangan/rlangan-skills
+claude plugin install i-have-adhd@rlangan-skills
 ```
 
 Then type `/i-have-adhd`.
@@ -66,7 +66,7 @@ Stops burying the answer. Action first. Steps numbered. No "Hope this helps!"
 Edit [skills/i-have-adhd/SKILL.md](./skills/i-have-adhd/SKILL.md) directly in this repo, then reinstall:
 
 ```bash
-claude plugin marketplace update claude-skills
+claude plugin marketplace update rlangan-skills
 ```
 
 ## Always-on (optional)

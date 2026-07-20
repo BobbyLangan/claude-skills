@@ -1,17 +1,17 @@
-# claude-skills
+# rlangan-skills
 
 Bobby Langan's personal Claude Code plugin library. One marketplace, one plugin per skill — install only what you want.
 
 ## Install the marketplace
 
 ```bash
-claude plugin marketplace add BobbyLangan/claude-skills
+claude plugin marketplace add BobbyLangan/rlangan-skills
 ```
 
 Then install individual skills:
 
 ```bash
-claude plugin install <skill-name>@claude-skills
+claude plugin install <skill-name>@rlangan-skills
 ```
 
 ## Skills
@@ -21,7 +21,7 @@ claude plugin install <skill-name>@claude-skills
 | [i-have-adhd](./plugins/i-have-adhd/README.md) | Shapes output for an ADHD reader: action-first, numbered steps, no tangents, no preamble. |
 
 ```bash
-claude plugin install i-have-adhd@claude-skills
+claude plugin install i-have-adhd@rlangan-skills
 ```
 
 Then type `/i-have-adhd`. See [plugins/i-have-adhd/README.md](./plugins/i-have-adhd/README.md) for details.
@@ -46,7 +46,7 @@ Then type `/i-have-adhd`. See [plugins/i-have-adhd/README.md](./plugins/i-have-a
    }
    ```
 4. Add a row to the Skills table above.
-5. `claude plugin marketplace update claude-skills` (or re-add) to pick up the change locally.
+5. `claude plugin marketplace update rlangan-skills` (or re-add) to pick up the change locally.
 
 ## Manage
 
@@ -54,7 +54,7 @@ Then type `/i-have-adhd`. See [plugins/i-have-adhd/README.md](./plugins/i-have-a
 claude plugin list                              # see installed skills
 claude plugin disable <skill-name>              # turn one off
 claude plugin uninstall <skill-name>             # remove one
-claude plugin marketplace update claude-skills   # pull latest changes
+claude plugin marketplace update rlangan-skills   # pull latest changes
 ```
 
 ## License
